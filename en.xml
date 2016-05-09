@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Strings Version="0.1">
+  <Controls>
+    <!-- Left Column -->
+    <Control Name="fgCheck">
+      <Text>Foreground Effects</Text>
+      <Tooltip>Check this to display foreground effects.</Tooltip>
+    </Control>
+    <Control Name="fgComboBox">
+      <Text />
+      <Tooltip>The foreground effects to display.</Tooltip>
+    </Control>
+    <Control Name="fgEditButton">
+      <Text>Edit</Text>
+      <Tooltip>Edit the selected foreground effects.</Tooltip>
+    </Control>
+    <Control Name="bgCheck">
+      <Text>Background Effects</Text>
+      <Tooltip>Check this to display background effects.</Tooltip>
+    </Control>
+    <Control Name="bgComboBox">
+      <Text />
+      <Tooltip>The background effects to display.</Tooltip>
+    </Control>
+    <Control Name="bgEditButton">
+      <Text>Edit</Text>
+      <Tooltip>Edit the selected background effects.</Tooltip>
+    </Control>
+    <Control Name="stCheck">
+        <Text>Static Effects</Text>
+        <Tooltip>Check this to display a static profile.</Tooltip>
+      </Control>
+    <Control Name="stComboBox">
+      <Text />
+      <Tooltip>The static lighting profile to display.</Tooltip>
+    </Control>
+    <Control Name="stEditButton">
+      <Text>Edit</Text>
+      <Tooltip>Edit the selected static profile.</Tooltip>
+    </Control>
+    <Control Name="UpdateButton">
+      <Text>Update</Text>
+      <Tooltip>Update to the latest version.</Tooltip>
+    </Control>
+    <Control Name="LogButton">
+      <Text>Log</Text>
+      <Tooltip>Display the Log and Log Settings. (Click twice for Settings)</Tooltip>
+    </Control>
+    <Control Name="SettingsButton">
+      <Text>Settings</Text>
+      <Tooltip>Display the Settings page.</Tooltip>
+    </Control>
+
+    <!-- Log Page -->
+    <Control Name="LogVerbosityLabel">
+      <Text>Log Verbosity</Text>
+      <Tooltip>Verbosity of the log output.</Tooltip>
+    </Control>
+    <Control Name="LogVerbosityComboBox">
+      <Text />
+      <Tooltip>Verbosity of the log output.</Tooltip>
+    </Control>
+  
+    <!-- Settings Page -->
+    <Control Name="CheckMinimizeToTray">
+      <Text>Minimize to System Tray</Text>
+      <Tooltip>Minimize to the System Tray instead of the Task Bar.</Tooltip>
+    </Control>
+    <Control Name="CheckStartWithWindows">
+      <Text>Start with Windows</Text>
+      <Tooltip>Start CEE when Windows starts.</Tooltip>
+    </Control>
+    <Control Name="CheckStartMinimized">
+      <Text>Start minimized</Text>
+      <Tooltip>Start CEE in a minimized state.</Tooltip>
+    </Control>
+    <Control Name="Check16MColours">
+      <Text>16.8 Million colours</Text>
+      <Tooltip>Run the keyboard in 16.8 million colour mode.</Tooltip>
+    </Control>
+    <Control Name="CheckDisplayLiveKeyboardPreview">
+      <Text>Display live keyboard preview</Text>
+      <Tooltip>Show effects and animations on the Keyboard page as they're being rendered.</Tooltip>
+    </Control>
+    <Control Name="CheckWarnIfCueIsOpen">
+      <Text>Display a warning if CUE is open</Text>
+      <Tooltip>Show a warning before starting effects if CUE is running.</Tooltip>
+    </Control>
+    <Control Name="CheckLaunchCueOnExit">
+      <Text>Launch CUE on exit</Text>
+      <Tooltip>"Launch CUE upon quitting CEE. This requires the path to CUE to be entered below.</Tooltip>
+    </Control>
+    <Control Name="CheckRestoreLightingOnExit">
+      <Text>Restore lighting on exit</Text>
+      <Tooltip>Restore on-device lighting to the keyboard and mouse when quitting.</Tooltip>
+    </Control>
+    <Control Name="CUEPathLabel">
+      <Text>Corsair Utility Engine (CUE) Path. Double click to browse.</Text>
+      <Tooltip>Double click in the TextBox below to open the Browse dialog.</Tooltip>
+    </Control>
+    <Control Name="CuePathTextBox">
+      <Text />
+      <Tooltip>Navigate to the path of your CUE executable. This is used to launch CUE when quitting CEE.</Tooltip>
+    </Control>
+    <Control Name="CheckInvertM1">
+      <Text>Invert M1 key on K95</Text>
+      <Tooltip>Invert the colour of the M1 key on the K95. When selected, it acts as a negative to what's sent to it, so this compensates.</Tooltip>
+    </Control>
+    <Control Name="ProgramAccentColorLabel">
+      <Text>Program Accent Colour:</Text>
+      <Tooltip>Select the coloured box to choose an accent colour for CEE.</Tooltip>
+    </Control>
+    <Control Name="DonateButton">
+      <Text>Make a donation</Text>
+      <Tooltip>Make a donation to support the development and web-hosting of Corsair Effects Engine.</Tooltip>
+    </Control>
+    <Control Name="UseSdkCheckBox">
+      <Text>Use Corsair SDK</Text>
+      <Tooltip>Use the CUE SDK instead of direct hardware control.</Tooltip>
+    </Control>
+    <Control Name="KeyboardModelLabel">
+      <Text>Keyboard Model</Text>
+      <Tooltip>Select the keyboard you wish to use.</Tooltip>
+    </Control>
+    <Control Name="KeyboardModelComboBox">
+      <Text />
+      <Tooltip>Select the keyboard you wish to use.</Tooltip>
+    </Control>
+    <Control Name="KeyboardLayoutLabel">
+      <Text>Keyboard Layout</Text>
+      <Tooltip>Select the region of your keyboard.</Tooltip>
+    </Control>
+    <Control Name="KeyboardLayoutComboBox">
+      <Text />
+      <Tooltip>Select the region of your keyboard.</Tooltip>
+    </Control>
+    <Control Name="MouseModelLabel">
+      <Text>Mouse Model</Text>
+      <Tooltip>Select the mouse you would like to use.</Tooltip>
+    </Control>
+    <Control Name="MouseModelComboBox">
+      <Text />
+      <Tooltip>Select the mouse you would like to use.</Tooltip>
+    </Control>
+    <Control Name="AudioOutputDeviceRadioButton">
+      <Text>Audio Output Device</Text>
+      <Tooltip>Capture audio from an output device, such as your speakers or headphones.</Tooltip>
+    </Control>
+    <Control Name="UseDefaultOutputDevice">
+      <Text>Use Default Device</Text>
+      <Tooltip>Automatically select an output device based on the default device in Windows.</Tooltip>
+    </Control>
+    <Control Name="AudioOutputDeviceComboBox">
+      <Text />
+      <Tooltip>Select an output device to capture from.</Tooltip>
+    </Control>
+    <Control Name="AudioInputDeviceRadioButton">
+      <Text>Audio Input Device</Text>
+      <Tooltip>Capture audio from an input device, such as a mic or line-in.</Tooltip>
+    </Control>
+    <Control Name="UseDefaultInputDevice">
+      <Text>Use Default Device</Text>
+      <Tooltip>Automatically select an input device based on the default device in Windows.</Tooltip>
+    </Control>
+    <Control Name="AudioInputDeviceComboBox">
+      <Text />
+      <Tooltip>Select an input device to capture from.</Tooltip>
+    </Control>
+    <Control Name="FramesPerSecondLabel">
+      <Text>Frames per Second</Text>
+      <Tooltip>Maximum amount of frames to render and send to devices each second.</Tooltip>
+    </Control>
+    <Control Name="FramesPerSecondIntegerUpDown">
+      <Text />
+      <Tooltip>Maximum amount of frames to render and send to devices each second.</Tooltip>
+    </Control>
+    <Control Name="ApplySpectroChangesButton">
+      <Text>Restart Engine</Text>
+      <Tooltip>If something went wrong when changing hardware, re-initialize everything.</Tooltip>
+    </Control>
+
+    <!-- Top of the grid displaying info and Back button -->
+    <Control Name="PageBeingEditedDoneButton">
+      <Text>Done</Text>
+      <Tooltip>Save changes made on this page and return to the main page.</Tooltip>
+    </Control>
+
+    <!-- Colours Grid -->
+    <Control Name="ColorLabel">
+      <Text>Colours</Text>
+      <Tooltip></Tooltip>
+    </Control>
+    <Control Name="AcceptColourButton">
+      <Text>Accept</Text>
+      <Tooltip>Accept and apply changes.</Tooltip>
+    </Control>
+    <Control Name="CancelColourButton">
+      <Text>Cancel</Text>
+      <Tooltip>Cancel and lose changes.</Tooltip>
+    </Control>
+    
+    <!-- Foreground: Spectrograph -->
+    <Control Name="fgSpectroStyleLabel">
+      <Text>Style</Text>
+      <Tooltip>The style of light to be used for this effect.</Tooltip>
+    </Control>
+    <Control Name="fgSpectroStyleComboBox">
+      <Text />
+      <Tooltip>The style of light to be used for this effect.</Tooltip>
+    </Control>
+    <Control Name="fgSpectroRainbowDirectionLabel">
+      <Text>Direction</Text>
+      <Tooltip>The direction that the rainbow will travel.</Tooltip>
+    </Control>
+    <Control Name="fgSpectroRainbowDirection">
+      <Text />
+      <Tooltip>The direction that the rainbow will travel.</Tooltip>
+    </Control>
+    <Control Name="fgSpectroCycleLabel">
+      <Text>Cycle</Text>
+      <Tooltip>Time in milliseconds for the effect to last before repeating. This is synced with Background effects.</Tooltip>
+    </Control>
+    <Control Name="fgSpectroCycleUpDown">
+      <Text />
+      <Tooltip>Time in milliseconds for the effect to last before repeating. This is synced with Background effects.</Tooltip>
+    </Control>
+    <Control Name="fftRainbowBrightnessLabel">
+      <Text>Brightness</Text>
+      <Tooltip>Brightness of lights on a scale of 0 to 255.</Tooltip>
+    </Control>
+    <Control Name="fftRainbowBrightnessUpDown">
+      <Text />
+      <Tooltip>Brightness of lights on a scale of 0 to 255.</Tooltip>
+    </Control>
+    <Control Name="fftSizeLabel">
+      <Text>FFT Size</Text>
+      <Tooltip>The amount of samples to include in one frame. The higher this is, the more accurate but slower the display is. Default is 1024.</Tooltip>
+    </Control>
+    <Control Name="fftSizeComboBox">
+      <Text />
+      <Tooltip>The amount of samples to include in one frame. The higher this is, the more accurate but slower the display is. Default is 1024.</Tooltip>
+    </Control>
+    <Control Name="fftBinsPerPointLabel">
+      <Text>Bins per Point</Text>
+      <Tooltip>Amount of samples per point of data. Higher numbers lead to more rounded corners. Default is 2.</Tooltip>
+    </Control>
+    <Control Name="fftBinsPerPointComboBox">
+      <Text />
+      <Tooltip>Amount of samples per point of data. Higher numbers lead to more rounded corners. Default is 2.</Tooltip>
+    </Control>
+    <Control Name="fftDecibelRangeLabel">
+      <Text>Decibel Range</Text>
+      <Tooltip>Range of loudness to pick up.</Tooltip>
+    </Control>
+    <Control Name="fftDbToLabel">
+      <Text>to</Text>
+      <Tooltip />
+    </Control>
+    <Control Name="fftDbMinUpDown">
+      <Text />
+      <Tooltip>The minimum loudness to respond to. The closer to 0, the louder a sound.</Tooltip>
+    </Control>
+    <Control Name="fftDbMaxUpDown">
+      <Text />
+      <Tooltip>The maximum loudness to respond to. The closer to 0, the louder a sound.</Tooltip>
+    </Control>
+    <Control Name="fftFrequenciesLabel">
+      <Text>Frequencies</Text>
+      <Tooltip>Range of frequencies to pick up.</Tooltip>
+    </Control>
+    <Control Name="fftFreqToLabel">
+      <Text>to</Text>
+      <Tooltip />
+    </Control>
+    <Control Name="fftFreqMinUpDown">
+      <Text />
+      <Tooltip>The lowest frequencies to respond to. These are on the furthest point left of the keyboard.</Tooltip>
+    </Control>
+    <Control Name="fftFreqMaxUpDown">
+      <Text />
+      <Tooltip>The highest frequencies to respond to. These are on the furthest point right of the keyboard.</Tooltip>
+    </Control>
+    <Control Name="fftHzLabel">
+      <Text>Hz</Text>
+      <Tooltip />
+    </Control>
+    <Control Name="fftWindowLabel">
+      <Text>Window</Text>
+      <Tooltip>The Windowing function used to shape the data. This will change the appearance of the spectro slightly.</Tooltip>
+    </Control>
+    <Control Name="fftWindowComboBox">
+      <Text />
+      <Tooltip>The Windowing function used to shape the data. This will change the appearance of the spectro slightly.</Tooltip>
+    </Control>
+    <Control Name="fftLogVolumeCheckBox">
+      <Text>Logarithmic Volume</Text>
+      <Tooltip>Show loudness along the height of the keyboard on a logarithmic or linear scale.</Tooltip>
+    </Control>
+    <Control Name="fftLogFrequenciesCheckBox">
+      <Text>Logarithmic Frequencies</Text>
+      <Tooltip>Space frequencies along the length of the keyboard on a logarithmic or linear scale.</Tooltip>
+    </Control>
+    <Control Name="fftFreqBoostUpDown">
+      <Text />
+      <Tooltip>Gain this many dB at the furthest right of the spectrum. [Default is 10]</Tooltip>
+    </Control>
+    <Control Name="fftFreqBoostCheckBox">
+      <Text>Boost Higher Frequencies</Text>
+      <Tooltip>Creates a slope that gradually increases amplification towards the right side of the keyboard.</Tooltip>
+    </Control>
+    <Control Name="fftEffectsOnMouseCheckBox">
+      <Text>Effects on Mouse</Text>
+      <Tooltip>Show beat analyzer effects on the Mouse. [Not Yet Implemented]</Tooltip>
+    </Control>
+    <Control Name="fftRow7Label">
+      <Text>Row 7</Text>
+      <Tooltip>Colour of the top row. This is the row with the Corsair logo, M-keys, WinLock, and Brightness keys.</Tooltip>
+    </Control>
+    <Control Name="fftRow6Label">
+      <Text>Row 6</Text>
+      <Tooltip>Colour of the row including the Escape key and Function keys.</Tooltip>
+    </Control>
+    <Control Name="fftRow5Label">
+      <Text>Row 5</Text>
+      <Tooltip />
+    </Control>
+    <Control Name="fftRow4Label">
+      <Text>Row 4</Text>
+      <Tooltip />
+    </Control>
+    <Control Name="fftRow3Label">
+      <Text>Row 3</Text>
+      <Tooltip />
+    </Control>
+    <Control Name="fftRow2Label">
+      <Text>Row 2</Text>
+      <Tooltip />
+    </Control>
+    <Control Name="fftRow1Label">
+      <Text>Row 1</Text>
+      <Tooltip />
+    </Control>
+
+    <!-- Foreground: Random Lights -->
+    <Control Name="fgRandomLightsStyleLabel">
+      <Text>Light Style</Text>
+      <Tooltip>The style of light to be used for this effect.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsStyle">
+      <Text />
+      <Tooltip>The style of light to be used for this effect.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsSolidDurationUD">
+      <Text />
+      <Tooltip>Time to remain solid in milliseconds before switching.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsSolidDurationLabel">
+      <Text>Total duration</Text>
+      <Tooltip>Time to remain solid in milliseconds before switching.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsFadeSolidDurationUD">
+      <Text />
+      <Tooltip>Time to remain solid in milliseconds before beginning to fade.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsFadeSolidDurationLabel">
+      <Text>Time to remain solid</Text>
+      <Tooltip>Time to remain solid in milliseconds before beginning to fade.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsFadeTotalDurationUD">
+      <Text />
+      <Tooltip>Total duration in milliseconds of one cycle of the effect.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsFadeTotalDurationLabel">
+      <Text>Total Duration</Text>
+      <Tooltip>Total duration in milliseconds of one cycle of the effect.</Tooltip>
+    </Control>
+    
+    <!-- Bottom Portion: Colour Options-->
+    <Control Name="fgRandomLightsStartTypeLabel">
+      <Text>Start Colour</Text>
+      <Tooltip>The colour to start the effect.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsStartTypeComboBox">
+      <Text />
+      <Tooltip>The colour to start the effect.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsStartColorEditButton">
+      <Text>Edit</Text>
+      <Tooltip>Edit the Start Colour.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsEndTypeLabel">
+      <Text>End Colour</Text>
+      <Tooltip>The colour to end the effect.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsEndTypeComboBox">
+      <Text />
+      <Tooltip>The colour to end the effect.</Tooltip>
+    </Control>
+    <Control Name="fgRandomLightsEndColorEditButton">
+      <Text>Edit</Text>
+      <Tooltip>Edit the End Colour.</Tooltip>
+    </Control>
+
+    <!-- Foreground: Reactive Typing -->
+    <Control Name="fgReactiveStyleLabel">
+      <Text>Light Style</Text>
+      <Tooltip>The style of light to be used for this effect.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveStyle">
+      <Text />
+      <Tooltip>The style of light to be used for this effect.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveSolidDurationUD">
+      <Text />
+      <Tooltip>Time to remain solid in milliseconds before switching.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveSolidDurationLabel">
+      <Text>Total duration</Text>
+      <Tooltip>Time to remain solid in milliseconds before switching.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveFadeSolidDurationUD">
+      <Text />
+      <Tooltip>Time to remain solid in milliseconds before beginning to fade.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveFadeSolidDurationLabel">
+      <Text>Time to remain solid</Text>
+      <Tooltip>Time to remain solid in milliseconds before beginning to fade.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveFadeTotalDurationUD">
+      <Text />
+      <Tooltip>Total duration in milliseconds of one cycle of the effect.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveFadeTotalDurationLabel">
+      <Text>Total Duration</Text>
+      <Tooltip>Total duration in milliseconds of one cycle of the effect.</Tooltip>
+    </Control>
+
+    <!-- Bottom Portion: Colour Options-->
+    <Control Name="fgReactiveStartTypeLabel">
+      <Text>Start Colour</Text>
+      <Tooltip>The colour to start the effect.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveStartTypeComboBox">
+      <Text />
+      <Tooltip>The colour to start the effect.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveStartColorEditButton">
+      <Text>Edit</Text>
+      <Tooltip>Edit the Start Colour.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveEndTypeLabel">
+      <Text>End Colour</Text>
+      <Tooltip>The colour to end the effect.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveEndTypeComboBox">
+      <Text />
+      <Tooltip>The colour to end the effect.</Tooltip>
+    </Control>
+    <Control Name="fgReactiveEndColorEditButton">
+      <Text>Edit</Text>
+      <Tooltip>Edit the End Colour.</Tooltip>
+    </Control>
+  
+    <!-- Foreground: Heatmap -->
+    <Control Name="fgHeatmapColorMostLabel">
+      <Text>Most Struck Colour</Text>
+      <Tooltip>The colour to shade the keys you have struck most.</Tooltip>
+    </Control>
+    <Control Name="fgHeatmapColorLeastLabel">
+      <Text>Lease Struck Colour</Text>
+      <Tooltip>The colour to shade the keys you have struck least.</Tooltip>
+    </Control>
+    <Control Name="fgHeatmapResetCountButton">
+      <Text>Reset Strike Count</Text>
+      <Tooltip>Reset counters to zero.</Tooltip>
+    </Control>
+
+    <!-- Foreground: CPU Usage Bar -->
+    <Control Name="fgCpuLabel">
+      <Text>Colour</Text>
+      <Tooltip>Colour of the CPU Usage Bar.</Tooltip>
+    </Control>
+    <Control Name="fgCpuRefreshLabel">
+      <Text>Refresh (ms)</Text>
+      <Tooltip>Refresh every x milliseconds.</Tooltip>
+    </Control>
+    <Control Name="fgCpuRefreshUpDown">
+      <Text />
+      <Tooltip>Refresh every x milliseconds.</Tooltip>
+    </Control>
+    <Control Name="fgCpuBarDirectionLabel">
+      <Text>Bar Growth Direction</Text>
+      <Tooltip>Direction to grow the bar.</Tooltip>
+    </Control>
+    <Control Name="fgCpuBarDirectionDropDown">
+      <Text />
+      <Tooltip>Direction to grow the bar.</Tooltip>
+    </Control>
+
+    <!-- Backround: Solid Colour -->
+    <Control Name="bgSolidLabel">
+      <Text>Colour</Text>
+      <Tooltip>Colour of the solid background.</Tooltip>
+    </Control>
+
+    <!-- Background: Breathe -->
+    <Control Name="bgBreatheDurationLabel">
+      <Text>Duration</Text>
+      <Tooltip>Duration in milliseconds of each step of the effect.</Tooltip>
+    </Control>
+    <Control Name="bgBreatheStepOneLabel">
+      <Text>Step One</Text>
+      <Tooltip>The first step of the effect.</Tooltip>
+    </Control>
+    <Control Name="bgBreatheStepOneUpDown">
+      <Text />
+      <Tooltip>Duration for the first step to remain solid before beginning to transition to the next.</Tooltip>
+    </Control>
+    <Control Name="bgBreatheTransitionLabel">
+      <Text>Transition</Text>
+      <Tooltip>The transition between the steps of the effect.</Tooltip>
+    </Control>
+    <Control Name="bgBreatheTransitionUpDown">
+      <Text />
+      <Tooltip>The duration of the transition from one step to another</Tooltip>
+    </Control>
+    <Control Name="bgBreatheStepTwoLabel">
+      <Text>Step Two</Text>
+      <Tooltip>The second step of the effect.</Tooltip>
+    </Control>
+    <Control Name="bgBreatheStepTwoUpDown">
+      <Text />
+      <Tooltip>Duration for the second step to remain solid before beginning to transition to the next.</Tooltip>
+    </Control>
+  
+    <!-- Background: Rainbow and Spectrum Fade -->
+    <Control Name="bgRainbowCycleTimeLabel">
+      <Text>Animation Cycle Time</Text>
+      <Tooltip>Time in milliseconds before the effect repeats.</Tooltip>
+    </Control>
+    <Control Name="bgRainbowCycleTimeUpDown">
+      <Text />
+      <Tooltip>Time in milliseconds before the effect repeats.</Tooltip>
+    </Control>
+    <Control Name="bgRainbowBrightnessLabel">
+      <Text>Brightness</Text>
+      <Tooltip>Brightness of the background effect.</Tooltip>
+    </Control>
+    <Control Name="bgRainbowBrightnessUpDown">
+      <Text />
+      <Tooltip>Brightness of the background effect.</Tooltip>
+    </Control>
+    <Control Name="bgRainbowDirectionLabel">
+      <Text>Direction</Text>
+      <Tooltip>The direction that the rainbow will travel.</Tooltip>
+    </Control>
+    <Control Name="bgRainbowDirectionComboBox">
+      <Text />
+      <Tooltip>The direction that the rainbow will travel.</Tooltip>
+    </Control>
+    <Control Name="bgSpectrumPhaseInvert">
+      <Text>Invert Phase</Text>
+      <Tooltip>Show colours negative to the Foreground effects.</Tooltip>
+    </Control>
+  
+    <!-- Background: Image -->
+    <Control Name="bgImageBrowseButton">
+      <Text>Browse...</Text>
+      <Tooltip>Browse for an image on your computer.</Tooltip>
+    </Control>
+    <Control Name="bgImageCanvas">
+      <Text />
+      <Tooltip>Your loaded image.</Tooltip>
+    </Control>
+    <Control Name="bgImageResizedCanvas">
+      <Text />
+      <Tooltip>A preview of roughly what the image will look like on your keyboard.</Tooltip>
+    </Control>
+
+    <!-- Background: CPU Usage -->
+    <Control Name="bgCpuColor0Label">
+      <Text>Colour for 0%</Text>
+      <Tooltip>Colour to use for 0% CPU usage.</Tooltip>
+    </Control>
+    <Control Name="bgCpuColor25Label">
+      <Text>Colour for 25%</Text>
+      <Tooltip>Colour to use for 25% CPU usage.</Tooltip>
+    </Control>
+    <Control Name="bgCpuColor50Label">
+      <Text>Colour for 50%</Text>
+      <Tooltip>Colour to use for 50% CPU usage.</Tooltip>
+    </Control>
+    <Control Name="bgCpuColor75Label">
+      <Text>Colour for 75%</Text>
+      <Tooltip>Colour to use for 75% CPU usage.</Tooltip>
+    </Control>
+    <Control Name="bgCpuColor100Label">
+      <Text>Colour for 100%</Text>
+      <Tooltip>Colour to use for 100% CPU usage.</Tooltip>
+    </Control>
+    <Control Name="bgCpuColorRefreshLabel">
+      <Text>Refresh (ms)</Text>
+      <Tooltip>Refresh every x milliseconds</Tooltip>
+    </Control>
+    <Control Name="bgCpuColorRefreshUpDown">
+      <Text />
+      <Tooltip>Refresh every x milliseconds.</Tooltip>
+    </Control>
+    
+    <!-- Background: Windows Accent -->
+    <Control Name="bgWinAccentRefreshLabel">
+      <Text>Refresh (seconds)</Text>
+      <Tooltip>Update every x seconds.</Tooltip>
+    </Control>
+    <Control Name="bgWinAccentRefreshUpDown">
+      <Text />
+      <Tooltip>Update every x seconds.</Tooltip>
+    </Control>
+  </Controls>
+  <Messages>
+    <!-- Effect Names -->
+    <Message Name="effectFgCurrentlyEditingHeader">Editing Foreground: </Message>
+    <Message Name="effectFgSpectrograph">Spectrograph</Message>
+    <Message Name="effectFgOscilloscope">Oscilloscope</Message>
+    <Message Name="effectFgVuMeter">VU Meter</Message>
+    <Message Name="effectFgRandomLights">Random Lights</Message>
+    <Message Name="effectFgReactive">Reactive Typing</Message>
+    <Message Name="effectFgHeatmap">Heatmap</Message>
+    <Message Name="effectFgCpuUsageBar">CPU Usage Bar</Message>
+    <Message Name="effectFgCurrentlyEditingHeader">Editing Background: </Message>
+    <Message Name="effectBgSolid">Solid</Message>
+    <Message Name="effectBgGradient">Gradient</Message>
+    <Message Name="effectBgBreathe">Breathe</Message>
+    <Message Name="effectBgSpectrumCycle">Spectrum Cycle</Message>
+    <Message Name="effectBgRainbow">Rainbow</Message>
+    <Message Name="effectBgCpuUsage">CPU Usage</Message>
+    <Message Name="effectBgWindowsAccent">Windows Accent</Message>
+    <Message Name="effectBgMirrorScreen">Screen Mirror</Message>
+    <Message Name="effectBgAverageScreen">Screen Average</Message>
+
+    <!-- Colour Styles -->
+    <Message Name="effectColorStyleNone">None</Message>
+    <Message Name="effectColorStyleDefined">Defined Colour</Message>
+    <Message Name="effectColorStyleRandom">Random Colour</Message>
+    
+    <!-- Spectro Styles -->
+    <Message Name="effectFgSpectroStyleSolid">Solid</Message>
+    <Message Name="effectFgSpectroStyleGradientH">Gradient Horizontal</Message>
+    <Message Name="effectFgSpectroStyleGradientV">Gradient Vertical</Message>
+    <Message Name="effectFgSpectroStyleRainbow">Rainbow</Message>
+    <Message Name="effectFgSpectroStyleSpecrumCycle">Spectrum Cycle</Message>
+    <Message Name="effectFgSpectroStyleDefinedRows">Defined Rows</Message>
+
+    <!-- Random Keys Styles -->
+    <Message Name="effectFgRandomLightsStyleSwitch">Switch</Message>
+    <Message Name="effectFgRandomLightsStyleFade">Fade</Message>
+
+    <!-- Directions -->
+    <Message Name="directionUp">Up</Message>
+    <Message Name="directionRight">Right</Message>
+    <Message Name="directionDown">Down</Message>
+    <Message Name="directionLeft">Left</Message>
+
+    <!-- Log Level Display -->
+    <Message Name="logLevel0">0: Default</Message>
+    <Message Name="logLevel4">4: Hardware Messages</Message>
+    <Message Name="logLevel5">5: Thread States</Message>
+    <Message Name="logLevel6">6: Engine Output</Message>
+    <Message Name="logLevel7">7: Interface</Message>
+    <Message Name="logLevel8">8: Language</Message>
+  </Messages>
+  <Logs>
+    <!-- Log Prefixes -->
+    <Log ID="0000" Name="logPrefix0">General : </Log>
+    <Log ID="0001" Name="logPrefix1">Message : </Log>
+    <Log ID="0002" Name="logPrefix2">Warning : </Log>
+    <Log ID="0003" Name="logPrefix3">Error   : </Log>
+    <Log ID="0004" Name="logPrefix4">Device  : </Log>
+    <Log ID="0005" Name="logPrefix5">Thread  : </Log>
+    <Log ID="0006" Name="logPrefix6">Engine  : </Log>
+    <Log ID="0007" Name="logPrefix7">Layout  : </Log>
+    <Log ID="0008" Name="logPrefix8">Language: </Log>
+
+    <!-- Log Level 0 - System -->
+    <Log ID="0050" Name="logMsgWelcome">Welcome to the Corsair Effects Engine version {0}.</Log> <!-- {0}: Current version number -->
+    <Log ID="0051" Name="logMsgCheckingForUpdates">Checking for updates...</Log>
+    <Log ID="0052" Name="logMsgBuildAvailable">Build {0} is available.</Log> <!-- {0}: New version number-->
+    <Log ID="0053" Name="logMsgNoUpdatesFound">You are running the latest version.</Log>
+    <log ID="0054" Name="logMsgCouldNotCheckForUpdaes">Could not find the latest version information.</log>
+    <Log ID="0055" Name="logMsgRendered">Rendered.</Log>
+    <Log ID="0056" Name="logMsgShuttingDown">Shutting Down...</Log>
+    
+    <!-- Log Level 1 - Messages -->
+
+    <!-- Log Level 2 - Warnings -->
+
+    <!-- Log Level 3 - Errors -->
+    <Log ID="0300" Name="logErrorFailedToLaunchUpdater">Failed to launch updater.</Log>
+    <Log ID="0301" Name="logErrorKeyboardNotFound">Keyboard not found.</Log>
+    <Log ID="0302" Name="logErrorMouseNotFound">Mouse not found.</Log>
+    <Log ID="0303" Name="logErrorHeadsetNotFound">Headset not found.</Log>
+    <Log ID="0304" Name="logErrorFailedToInitializeKeyboard"></Log>
+    <Log ID="0305" Name="logErrorFailedToInitializeMouse"></Log>
+    <Log ID="0306" Name="logErrorFailedToInitializeHeadset"></Log>
+    <Log ID="0307" Name="logErrorInvalidKeyboardSelection"></Log>
+    <Log ID="0308" Name="logErrorInvalidMouseSelection"></Log>
+    <Log ID="0309" Name="logErrorInvalidHeadsetSelection"></Log>
+
+    <!-- Log Level 4 - Hardware Messages -->
+
+    <!-- Log Level 5 - Thread States -->
+
+    <!-- Log Level 6 - Engine Output -->
+
+    <!-- Log Level 7 - Interface -->
+    <Log ID="0700" Name="logLayoutLog">Log</Log>
+    <Log ID="0701" Name="logLayoutLogSettings">Log Settings</Log>
+    <Log ID="0702" Name="logLayoutSettings">Settings</Log>
+    <Log ID="0703" Name="logLayoutMouse">Mouse</Log>
+    <Log ID="0704" Name="logLayoutStaticEdit">Edit Static Profile</Log>
+    <Log ID="0705" Name="logLayoutForegroundEdit">Edit Foreground Effect</Log>
+    <Log ID="0706" Name="logLayoutBackgroundEdit">Edit Background Effect</Log>
+
+    <!-- Log Level 8 - Language -->
+    <Log ID="0800" Name="logLangSetting">Setting</Log>
+    <Log ID="0801" Name="logLangCouldNotFindControl">!! Failed to find the above control</Log>
+    <Log ID="0802" Name="logLangUnmappedControl">{0} is not mapped!</Log> <!-- {0}: Control type -->
+    
+  </Logs>
+</Strings>
