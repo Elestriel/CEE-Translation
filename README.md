@@ -1,6 +1,8 @@
 # CEE-Translation
 This is the translation effort for Corsair Effects Engine.
 
+Anyone who helps out, please leave a note as a comment in your translated file, and I'll be sure to credit you for the help!
+
 # How to add a language
 Simply add a new file based on the original en.xml, name it based on the two character language code for the language you'd like to translate, and change the strings in the file as you wish!
 Never edit the Name attribute of an item; only edit the strings themselves.
@@ -13,3 +15,6 @@ These are strings that we see in different places that aren't fixed to controls.
 
 # Logs
 These are strings that will be output to the logs. They include an ID as well, so that when I'm looking at logs from another language, I can easily identify what each line is. Never change these ID codes. For now, the messages don't need to be translated, as they're far from done.
+
+# Thanks
+A huge thank you to everyone taking the time to help with translation! You're a wonderful community that I'm super happy to be a part of!
